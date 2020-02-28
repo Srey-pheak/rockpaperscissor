@@ -1,0 +1,89 @@
+body{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+background-color: #dc2ade;
+}
+
+header{
+  background-color: white;
+  margin:auto;
+  padding: 10px;
+  text-align: center;
+  font-family: Ubuntu;
+}
+
+.score-board{
+  text-align: center;
+  margin: 20px auto;
+  width: 200px;
+  border: 3px solid white;
+  color: white;
+  position: relative;
+  font-size: 40px;
+  border-radius: 4px;
+  font-family:Ubuntu;
+  position: relative;
+  padding: 15px 20px
+}
+
+.badge{
+  background-color: #0f4c81;
+  border-radius: 2px;
+  font-size: 18px;
+}
+
+#user_label{
+  position: absolute;
+  top:20px;
+  left:-25px;
+  padding:5px;
+}
+
+
+#robot_label{
+  position: absolute;
+  top:20px;
+  right:-30px;
+  padding:5px;
+}
+.result{
+  text-align: center;
+  margin:40px;
+  font-size: 20px;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+
+.choices {
+  margin: 40px;
+  text-align: center;
+
+}
+
+.choices img{
+  width: 100px;
+}
+
+.choice{
+  display: inline-block;
+  border: 5px solid white;
+  margin: 0 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease; 
+}
+
+.choice:hover{
+  background-color: #ffa372;
+  cursor: pointer;
+}
+
+.make_text{
+
+  font-family: Ubuntu;
+  font-size: 20px;
+  text-align: center;
+  margin:20px;
+  color: white;
+}
